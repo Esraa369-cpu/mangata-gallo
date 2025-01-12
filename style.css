@@ -1,0 +1,206 @@
+* {
+    color: #333333;
+}
+
+/* general styling */
+body {
+    background-color:#e4c5ac;
+    font-family: 'serif' , sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* styling for the main headings */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1 , h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.promo-banner {
+    background: linear-gradient(to right, #f8f8f8, #f0e6dc); /* Subtle gradient background */
+    padding: 60px 20px;
+    text-align: center; /* Center-align text */
+    color: #333; /* Neutral text color */
+    font-family: 'Montserrat', sans-serif; /* Clean and modern font */
+    border: 2px solid #ddd; /* Subtle border for definition */
+    margin: 20px auto;
+    max-width: 900px; /* Limit the banner width for readability */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+  .promo-content  {
+    font-size: 1.2em; /* Slightly larger font size for promotional emphasis */
+    line-height: 1.8; /* Improved readability */
+    margin: 0;
+  }
+
+
+
+/* paragraph styling*/
+p {
+    display: inline;
+    font-size: 1rem;
+    text-align:justify;
+    margin-bottom: 20px;
+
+}
+
+
+header > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center-align the navigation items */
+    gap: 20px; /* Space between navigation items */
+    margin-top: 20px;
+    padding: 0;
+  }
+
+nav li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* styling the links */
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; /* Use a clean and modern font */
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    border-radius: 5px; /* Slightly rounded corners for hover effect */
+}
+
+/* Link States */
+nav a:link {
+    color:#333;
+}
+
+nav a:visited {
+    color: #777;
+}
+
+nav a:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #b76; /* Stylish gold-like background on hover */
+    transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+nav a:active{
+    color: #fff; /* Active text color */
+    background-color: #d4a373; 
+    transform: scale(1); /* Remove zoom effect */
+}
+
+
+/* styling for row layout */
+.row {
+    display: flex;
+    justify-content: space-between; /* equal space between articles */
+    gap: 20px; /* space between each article */
+}
+
+.row article {
+    flex: 1; /* equal width for each article */
+    margin: 0 10px; /* add spacing around each article */
+}
+
+/* adding borders */
+article {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /*subtle shadow for elevation */
+}
+
+/* image styling */
+.content-image {
+    display: block;
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 20px auto; /* Add space around the image */
+    border-radius: 8px; /* Slightly rounded corners for elegance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Image Hover Effect */
+.content-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8; /* Light background to contrast with the main content */
+    text-align: center;
+    padding: 20px 40px;
+    font-family: 'Montserrat', sans-serif; /* Use a clean, modern font */
+    border-top: 2px solid #e0e0e0; /* Subtle divider line */
+  }
+  
+  .footer-column {
+    flex:1;
+  }
+
+  .footer-left{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-logo {
+    width: 60px; /* Small version of the logo */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.9; /* Slight transparency */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+
+  /* Add hover effect */
+  .footer-logo:hover {
+    opacity: 1; /* Remove transparency on hover */
+    transform: scale(1.1); /* Slight zoom-in effect */
+  }
+  
+  .footer-right p {
+    font-size: 0.9em;
+    color: #666; /* Subtle text color */
+    margin:0;
+  }
+  
+  
+
+  
